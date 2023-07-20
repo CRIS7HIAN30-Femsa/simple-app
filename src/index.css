@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-gen {
+  color: black;
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-gen:hover{
+  scale: 1.1;
+  transition: 300ms;
+  background-color: blueviolet;
+}
+
+.sep {
+  margin-left: 25px;
+}
+
+html, body #root{
+  height:100%;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000e8;
+}
+
+.contador{
+  display: block;
+  text-align: center;
+}
+
+.contador p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fafafa;
+}
+
+.contador h2{
+  font-size: 35px;
+  color: red;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo {
+  color: #fafafa;
+}
